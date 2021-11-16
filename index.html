@@ -3,5 +3,28 @@
 <body>
 <h1>Hello World</h1>
 <p>I'm hosted with GitHub Pages.</p>
-</body>
+<script type="module">
+    // Import the functions you need from the SDKs you need
+    import { initializeApp } from "https://www.gstatic.com/firebasejs/9.4.1/firebase-app.js";
+    import { getAnalytics } from "https://www.gstatic.com/firebasejs/9.4.1/firebase-analytics.js";
+    // TODO: Add SDKs for Firebase products that you want to use
+    // https://firebase.google.com/docs/web/setup#available-libraries
+  
+    // Your web app's Firebase configuration
+    // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+    const firebaseConfig = {
+      apiKey: "AIzaSyDWdWE3xKbIUBFnbNVpaEbxyFi3PD3Jom8",
+      authDomain: "website-b79fb.firebaseapp.com",
+      projectId: "website-b79fb",
+      storageBucket: "website-b79fb.appspot.com",
+      messagingSenderId: "967127487672",
+      appId: "1:967127487672:web:53ceb300070e3482de504d",
+      measurementId: "G-1LF6MJW2VL"
+    };
+  
+    // Initialize Firebase
+    const app = initializeApp(firebaseConfig);
+    const analytics = getAnalytics(app);
+  </script>
+  </body>
 </html>
