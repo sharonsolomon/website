@@ -1,6 +1,9 @@
 {
-  "hosting": {
-    "public": "SITE",
+  "hosting": {"rewrites": [ {
+    "source": "**",
+    "destination": "/index.html"
+  } ],
+    "public": "SITE", "cleanUrls": true,
     "ignore": [
       "firebase.json",
       "**/.*",
