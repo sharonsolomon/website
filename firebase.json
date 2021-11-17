@@ -2,6 +2,9 @@
   "hosting": {"rewrites": [ {
     "source": "**",
     "destination": "/index.html"
+  } ],"rewrites": [ {
+    "source": "*",
+    "destination": "/index.html"
   } ],
     "public": "SITE", "cleanUrls": true,
     "ignore": [
